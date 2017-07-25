@@ -1,0 +1,11 @@
+logging.level.com.sillaps: DEBUG
+twilio:
+  account-sid: ${TWLILIO_ACCOUNT_ID:AC49782ed0e93365857d9c1e7fb75e56b0}
+  auth-token: c626d3a1861025e5bfeee13a79702bb6
+  phone-number: +15202141507
+
+---
+spring.profiles: dev
+
+twilio:
+  account-sid: AZERTYUIO
